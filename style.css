@@ -1,0 +1,186 @@
+@media screen and (max-width: 1195px) {
+	.container {
+		width: 642px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial, serif;
+	font-size: 14px;
+	padding-bottom: 14px;
+	border-bottom: #E6E6E6 1px solid;
+}
+
+span.non-bold {
+	font-weight: normal;
+}
+
+body {
+	margin: 0;
+}
+
+header.top-header {
+	width: 100%;
+	height: 132px;
+	background-color: black;
+	color: white;
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	background-position: center 75%;
+	font-size: 12px;
+	font-family: Arial, serif;
+}
+
+.top-header span{
+	margin: 14px 10% 0px 0px;
+	float: right;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+
+.claims ul {
+	padding: 0px;
+}
+
+.claims ul li {
+	margin-bottom: 14px;
+	width: 33%;
+	text-align: center;
+	list-style-type: none;
+	float: left;
+	text-transform: uppercase;
+	border-right: 2px solid #6b6b6b;
+	font-size: 12px;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", 
+	"Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.claims ul li:last-child {
+	border: none;
+}
+
+@media screen and (min-width: 1196px) {
+.container {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+
+.main img {
+	width: 100%;
+	/*min-width: 100%;*/
+}
+
+.main p{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	font-family: Arial, serif;
+}
+
+#addressbook {
+	margin-top: 30px;
+	padding-top: 29px;
+	border-top: #E6E6E6 1px solid;
+}
+
+.username {
+	color: #F00;
+}
+
+.buy {
+	text-align: center;
+}
+
+.buy ul {
+	padding: 0px;
+}
+
+.buy ul li{
+	list-style-type: none;
+	background-color: black;
+	margin: 1px 0px 1px 0px;
+}
+
+.buy ul li a {
+	display: block;
+	padding: 22px 0 22px 0;
+	color: white;
+	text-decoration: none;
+	font-family: Arial, serif;
+	font-size: 14px;
+}
+
+.buy ul li a:hover {
+	background-color: gray;
+}
+
+.buy {
+	margin: 45px 0 45px 0;
+}
+
+footer {
+	text-align: center;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", 
+	"Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+
+
+.footer-nav nav ul li{
+	list-style-type: none;
+	display: inline;
+	margin: 10px;
+}
+
+.bottom-footer {
+	font-size: 10px;
+	font-family: Arial, serif;
+}
+
+.bottom-footer nav ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 0 17px 0 17px;
+	border-right: 1px solid black;
+}
+
+.bottom-footer nav ul li:last-child {
+	border: none;
+}
+
+.bottom-footer nav ul li a:link, .bottom-footer nav ul li a:visited {
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.bottom-footer nav ul li a:hover, .top-header a:hover {
+	text-decoration: underline;
+}
+
+.top-header a:visited, .top-header a:link {
+	color: white;
+	text-decoration: none;
+}
+
+.top-header a:hover {
+	text-decoration: underline;
+}
+
+.main a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.main a:hover {
+	text-decoration: underline;
+}
